@@ -1,4 +1,4 @@
-from matrix import count_in_matrix
+from counter.matrix import count_in_matrix
 
 def test_matriz():
 	assert count_in_matrix([0, 7]) == '0=5\n7=6\n'
