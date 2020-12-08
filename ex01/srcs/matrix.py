@@ -1,6 +1,15 @@
 import numpy as np
 
 def	count_in_matrix(v):
+	"""Count how many times its elements appear in a matrix
+
+	Args:
+		v (List): List of elements to search
+
+	Returns:
+		string: Number of times its elements appear
+	"""
+
 	bitmap = [[4, 0, 4, 10, 0, 7, 11, 12, 7, 2],
 	[7, 3, 7, 2, 4, 11, 12, 12, 11, 8],
 	[13, 8, 0, 4, 14, 2, 8, 7, 11, 1],
